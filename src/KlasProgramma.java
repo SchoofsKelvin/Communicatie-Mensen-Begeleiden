@@ -5,6 +5,8 @@ public class KlasProgramma {
 		Klas klasje = new Klas("Klasje 1-A");
 		Persoon leerling1 = new Persoon("John", "Smith");
 		klasje.addStudent(leerling1);
+		
+		
 	}
 
 }
