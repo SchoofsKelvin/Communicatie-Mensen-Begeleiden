@@ -2,7 +2,16 @@ import java.util.ArrayList;
 
 public class Klas {
 
-	private ArrayList<Persoon> studenten = new ArrayList<>();
+	private String				naam;
+	private ArrayList<Persoon>	studenten	= new ArrayList<>();
+
+	public Klas(String naam) {
+		this.naam = naam;
+	}
+
+	public String getNaam() {
+		return naam;
+	}
 
 	public void addStudent(Persoon persoon) {
 		studenten.add(persoon);
