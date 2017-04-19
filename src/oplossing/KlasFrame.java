@@ -1,4 +1,5 @@
 package oplossing;
+
 import javax.swing.DefaultListModel;
 import javax.swing.JFrame;
 import javax.swing.JList;
@@ -6,8 +7,8 @@ import javax.swing.JList;
 public class KlasFrame {
 
 	private JFrame						window;
-	private JList<Persoon>				list;
-	private DefaultListModel<Persoon>	model	= new DefaultListModel<>();
+	private JList<Person>				list;
+	private DefaultListModel<Person>	model	= new DefaultListModel<>();
 
 	public KlasFrame() {
 		window = new JFrame("Klasprogramma");
@@ -21,7 +22,7 @@ public class KlasFrame {
 		window.setVisible(true);
 	}
 
-	public void addStudent(Persoon persoon) {
+	public void addStudent(Person persoon) {
 		model.addElement(persoon);
 	}
 

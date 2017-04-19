@@ -1,4 +1,6 @@
-package oplossing;
+package student;
+
+import oplossing.KlasFrame;
 
 public class KlasProgramma {
 
@@ -12,10 +14,7 @@ public class KlasProgramma {
 	}
 
 	public static void main(String[] args) {
-		Klas klasje = new Klas("6B");
-		klasje.addStudent(new Persoon("Jantje", "Peeters"));
-		klasje.addStudent(new Persoon("Bob", "Bobbers"));
-		toonKlas(klasje);
+
 	}
 
 }

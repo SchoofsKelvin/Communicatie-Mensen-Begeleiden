@@ -1,6 +1,6 @@
 package oplossing;
 
-public class Persoon {
+public class Persoon implements Person {
 
 	private String	voornaam;
 	private String	achternaam;
