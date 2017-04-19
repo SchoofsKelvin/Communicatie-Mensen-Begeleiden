@@ -1,3 +1,4 @@
+package oplossing;
 
 public class Persoon {
 
@@ -23,5 +24,10 @@ public class Persoon {
 
 	public void setVoornaam(String voornaam) {
 		this.voornaam = voornaam;
+	}
+
+	@Override
+	public String toString() {
+		return voornaam + " " + achternaam;
 	}
 }
